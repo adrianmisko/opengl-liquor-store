@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{9bc4688b-2ac4-452f-b52e-0fced904b0ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\light.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\light.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\box.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\box.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\model.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\depth_test.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\model_lighting.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\model.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\screen.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\screen.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\basic.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\basic.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\basic2.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\debug.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\debug.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\particle.vs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\particle.fs">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="particleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamicsWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletDebugDrawer_OpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
